@@ -1,0 +1,7 @@
+#! /bin/bash
+while true;
+  do
+  export globIP=$(curl -s ifconfig.me);
+  echo "$globIP";
+  sleep 1m;
+done
